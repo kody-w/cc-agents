@@ -1,0 +1,192 @@
+[
+  {
+    "name": "can_automatically_generate_agent",
+    "purpose": "Can automatically generate daily sales reports from our database",
+    "capabilities": [
+      "generate",
+      "report"
+    ],
+    "inputs": [
+      "data",
+      "report",
+      "database"
+    ],
+    "outputs": [
+      "report"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2024-01-15T10:01:00",
+    "source_transcript": "team_meeting_data_processing.json",
+    "context": "Bob: We're spending too much time on manual report generation. We need an agent that can automatically ge..."
+  },
+  {
+    "name": "monitoring_our_api_agent",
+    "purpose": "Monitoring our api endpoints? it should track response times and alert us when things slow down",
+    "capabilities": [
+      "monitor",
+      "track"
+    ],
+    "inputs": [
+      "api"
+    ],
+    "outputs": [
+      "alert"
+    ],
+    "constraints": [],
+    "priority": "medium",
+    "identified_at": "2024-01-15T10:02:00",
+    "source_transcript": "team_meeting_data_processing.json",
+    "context": "Charlie: I agree. Also, can we build an agent for monitoring our API endpoints? It should track response time..."
+  },
+  {
+    "name": "processes_feedback_real_time_agent",
+    "purpose": "Processes the feedback in real-time and categorizes issues automatically",
+    "capabilities": [
+      "process"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [
+      "real-time processing required"
+    ],
+    "priority": "medium",
+    "identified_at": "2024-01-15T10:05:00",
+    "source_transcript": "team_meeting_data_processing.json",
+    "context": "Bob: Great idea! We should have something that processes the feedback in real-time and categorizes issues..."
+  },
+  {
+    "name": "could_optimize_our_agent",
+    "purpose": "Could optimize our database queries automatically",
+    "capabilities": [
+      "optimize"
+    ],
+    "inputs": [
+      "data",
+      "database"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2024-01-15T10:06:00",
+    "source_transcript": "team_meeting_data_processing.json",
+    "context": "Charlie: I wish we had an agent that could optimize our database queries automatically. The manual process is..."
+  },
+  {
+    "name": "process_is_huge_agent",
+    "purpose": "Process is a huge bottleneck",
+    "capabilities": [
+      "process"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2024-01-15T10:06:00",
+    "source_transcript": "team_meeting_data_processing.json",
+    "context": "Charlie: I wish we had an agent that could optimize our database queries automatically. The manual process is..."
+  },
+  {
+    "name": "automate_our_ci/cd_agent",
+    "purpose": "Automate our ci/cd pipeline monitoring and provide deployment status updates",
+    "capabilities": [
+      "monitor"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2025-08-13T22:48:04.117953",
+    "source_transcript": "infrastructure_discussion.txt",
+    "context": "[10:00 AM] Sarah: Hey team, we need to discuss our infrastructure automation needs.  [10:01 AM] Mike: Absolutely. We're wasting time with repetitive deployment tasks. We need an agent to automate our "
+  },
+  {
+    "name": "our_ci/cd_pipeline_agent",
+    "purpose": "Our ci/cd pipeline monitoring and provide deployment status updates",
+    "capabilities": [
+      "monitor"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2025-08-13T22:48:04.117971",
+    "source_transcript": "infrastructure_discussion.txt",
+    "context": "[10:00 AM] Sarah: Hey team, we need to discuss our infrastructure automation needs.  [10:01 AM] Mike: Absolutely. We're wasting time with repetitive deployment tasks. We need an agent to automate our "
+  },
+  {
+    "name": "repetitive_deployment_tasks_agent",
+    "purpose": "Repetitive deployment tasks",
+    "capabilities": [
+      "process"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "low",
+    "identified_at": "2025-08-13T22:48:04.117985",
+    "source_transcript": "infrastructure_discussion.txt",
+    "context": "[10:00 AM] Sarah: Hey team, we need to discuss our infrastructure automation needs.  [10:01 AM] Mike: Absolutely. We're wasting time with repetitive deployment tasks. We need an agent to automate our "
+  },
+  {
+    "name": "can_analyze_our_agent",
+    "purpose": "Can analyze our cloud costs and suggest optimization strategies",
+    "capabilities": [
+      "analyze"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [],
+    "priority": "high",
+    "identified_at": "2025-08-13T22:48:04.118013",
+    "source_transcript": "infrastructure_discussion.txt",
+    "context": "[10:01 AM] Mike: Absolutely. We're wasting time with repetitive deployment tasks. We need an agent to automate our CI/CD pipeline monitoring and provide deployment status updates.  [10:02 AM] Sarah: G"
+  },
+  {
+    "name": "monitors_resource_usage_agent",
+    "purpose": "Monitors resource usage in real-time and automatically scales our services based on demand",
+    "capabilities": [
+      "monitor"
+    ],
+    "inputs": [
+      "data"
+    ],
+    "outputs": [
+      "results"
+    ],
+    "constraints": [
+      "real-time processing required",
+      "must handle large scale data"
+    ],
+    "priority": "high",
+    "identified_at": "2025-08-13T22:48:04.118037",
+    "source_transcript": "infrastructure_discussion.txt",
+    "context": "[10:02 AM] Sarah: Good point. Also, let's create an agent that can analyze our cloud costs and suggest optimization strategies. Our AWS bill is getting out of control.  [10:03 AM] Jennifer: That's urg"
+  }
+]

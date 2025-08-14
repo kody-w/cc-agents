@@ -1,0 +1,12 @@
+asyncio
+fastapi==0.104.1
+logging
+numpy
+pandas
+pydantic
+pydantic==2.5.0
+pytest
+pytest-asyncio==0.21.1
+pytest==7.4.3
+scipy
+uvicorn==0.24.0

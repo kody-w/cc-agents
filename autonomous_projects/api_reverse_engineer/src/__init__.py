@@ -11,7 +11,9 @@ __author__ = "Claude Code Agent"
 from .capture import TrafficCapture
 from .analyzer import RequestAnalyzer
 from .generators import PythonGenerator, TypeScriptGenerator, JavaScriptGenerator
+from .documentation import DocumentationGenerator
 from .types import APISpec, Endpoint, Parameter
+from .cli import APIReverseEngineerCLI
 
 __all__ = [
     "TrafficCapture",
@@ -19,6 +21,8 @@ __all__ = [
     "PythonGenerator",
     "TypeScriptGenerator",
     "JavaScriptGenerator",
+    "DocumentationGenerator",
+    "APIReverseEngineerCLI",
     "APISpec",
     "Endpoint",
     "Parameter"
