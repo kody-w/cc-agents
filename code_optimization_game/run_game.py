@@ -62,8 +62,12 @@ def run_tournament(code_name: str = "fibonacci", rounds: int = 5, visualize: boo
     print(f"\n📝 Optimizing: {code_name}")
     print(f"🔄 Rounds: {rounds}")
     print(f"🤖 Agents: {len(agents)}")
-    print("\nPress Enter to start the battle...")
-    input()
+    if visualize and sys.stdin.isatty():
+        print("\nPress Enter to start the battle...")
+        try:
+            input()
+        except EOFError:
+            pass
     
     if visualizer:
         visualizer.clear_screen()

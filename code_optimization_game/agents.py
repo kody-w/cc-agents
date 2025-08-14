@@ -341,7 +341,6 @@ class AlgorithmOptimizer(CodeOptimizationAgent):
                         optimizations.append("add_memoization")
                     new_lines.append(line)
                 optimized_code = '\n'.join(new_lines)
-                break
         
         # Early returns to reduce complexity
         if 'if ' in code and 'else:' in code:

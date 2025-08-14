@@ -1,0 +1,216 @@
+[
+  {
+    "round": 1,
+    "moves": [
+      {
+        "agent_name": "PerformanceBot",
+        "timestamp": "2025-08-13T22:40:38.128323",
+        "optimization_type": "minor_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -90.46206570782851,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0017350100097246468
+        }
+      },
+      {
+        "agent_name": "ReadabilityBot",
+        "timestamp": "2025-08-13T22:40:38.130393",
+        "optimization_type": "add_docstrings, add_docstrings",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -79.09541926131169,
+          "loc_change": 2,
+          "complexity_change": 0,
+          "performance_change": 0.0024104199837893248
+        }
+      },
+      {
+        "agent_name": "MemoryBot",
+        "timestamp": "2025-08-13T22:40:38.132229",
+        "optimization_type": "import_itertools",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 386.1047271325169,
+          "loc_change": 1,
+          "complexity_change": 0,
+          "performance_change": 0.002156669943360612
+        }
+      },
+      {
+        "agent_name": "AlgorithmBot",
+        "timestamp": "2025-08-13T22:40:38.134091",
+        "optimization_type": "add_memoization, add_memoization, early_returns",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 315.2654278202699,
+          "loc_change": 5,
+          "complexity_change": 0,
+          "performance_change": 0.017966250015888363
+        }
+      },
+      {
+        "agent_name": "MinimalistBot",
+        "timestamp": "2025-08-13T22:40:38.134484",
+        "optimization_type": "minification",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 316.70159670150497,
+          "loc_change": 5,
+          "complexity_change": 0,
+          "performance_change": 0.018103340116795152
+        }
+      }
+    ],
+    "scores": {
+      "PerformanceBot": -90.46206570782851,
+      "ReadabilityBot": -79.09541926131169,
+      "MemoryBot": 386.1047271325169,
+      "AlgorithmBot": 315.2654278202699,
+      "MinimalistBot": 316.70159670150497
+    },
+    "winner": "MemoryBot"
+  },
+  {
+    "round": 2,
+    "moves": [
+      {
+        "agent_name": "PerformanceBot",
+        "timestamp": "2025-08-13T22:40:39.140738",
+        "optimization_type": "add_caching, add_caching",
+        "success": false,
+        "metrics_change": {}
+      },
+      {
+        "agent_name": "ReadabilityBot",
+        "timestamp": "2025-08-13T22:40:39.140870",
+        "optimization_type": "add_docstrings, add_docstrings",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -114.99568007062226,
+          "loc_change": 2,
+          "complexity_change": 0,
+          "performance_change": 0.0015391600027214736
+        }
+      },
+      {
+        "agent_name": "MemoryBot",
+        "timestamp": "2025-08-13T22:40:39.141268",
+        "optimization_type": "memory_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -219.80662639612456,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0018279101641383022
+        }
+      },
+      {
+        "agent_name": "AlgorithmBot",
+        "timestamp": "2025-08-13T22:40:39.141583",
+        "optimization_type": "algorithm_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 405.7362443859547,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0017975001537706703
+        }
+      },
+      {
+        "agent_name": "MinimalistBot",
+        "timestamp": "2025-08-13T22:40:39.142007",
+        "optimization_type": "remove_comments",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 98.60024902345685,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0019116699695587158
+        }
+      }
+    ],
+    "scores": {
+      "PerformanceBot": -90.46206570782851,
+      "ReadabilityBot": -194.09109933193395,
+      "MemoryBot": 166.29810073639237,
+      "AlgorithmBot": 721.0016722062246,
+      "MinimalistBot": 415.3018457249618
+    },
+    "winner": "AlgorithmBot"
+  },
+  {
+    "round": 3,
+    "moves": [
+      {
+        "agent_name": "PerformanceBot",
+        "timestamp": "2025-08-13T22:40:40.143637",
+        "optimization_type": "minor_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -84.41583594045005,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0008774899470154196
+        }
+      },
+      {
+        "agent_name": "ReadabilityBot",
+        "timestamp": "2025-08-13T22:40:40.144004",
+        "optimization_type": "add_docstrings, add_docstrings",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -247.8654439670645,
+          "loc_change": 2,
+          "complexity_change": 0,
+          "performance_change": 0.0008787399565335363
+        }
+      },
+      {
+        "agent_name": "MemoryBot",
+        "timestamp": "2025-08-13T22:40:40.144332",
+        "optimization_type": "memory_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 385.84553678852535,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0010024999210145324
+        }
+      },
+      {
+        "agent_name": "AlgorithmBot",
+        "timestamp": "2025-08-13T22:40:40.144633",
+        "optimization_type": "algorithm_tweaks",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": -92.36045041569378,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0010508298873901367
+        }
+      },
+      {
+        "agent_name": "MinimalistBot",
+        "timestamp": "2025-08-13T22:40:40.144942",
+        "optimization_type": "remove_comments",
+        "success": true,
+        "metrics_change": {
+          "score_improvement": 315.96194946105425,
+          "loc_change": 0,
+          "complexity_change": 0,
+          "performance_change": 0.0010524899698793888
+        }
+      }
+    ],
+    "scores": {
+      "PerformanceBot": -174.87790164827857,
+      "ReadabilityBot": -441.95654329899844,
+      "MemoryBot": 552.1436375249177,
+      "AlgorithmBot": 628.6412217905308,
+      "MinimalistBot": 731.2637951860161
+    },
+    "winner": "MinimalistBot"
+  }
+]
