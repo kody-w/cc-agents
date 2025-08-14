@@ -1,0 +1,119 @@
+{
+  "orchestrator_id": "main_orchestrator",
+  "started_at": "2025-08-13T22:37:36.562827",
+  "base_directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects",
+  "total_agents": 10,
+  "agents": [
+    {
+      "id": "agent_self_modifying_agent",
+      "project": "self_modifying_agent",
+      "title": "Self-Modifying AI Agent System",
+      "description": "Build a self-modifying AI agent system that creates specialized sub-agents on demand",
+      "prompt": "Create an AI agent orchestrator that can dynamically spawn custom agents based on runtime needs, with each agent having specific capabilities and tools",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/self_modifying_agent",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:36.562873",
+      "complexity": 9
+    },
+    {
+      "id": "agent_code_visualizer",
+      "project": "code_visualizer",
+      "title": "Real-Time Code Execution Visualizer",
+      "description": "Create a real-time code visualizer that turns any Python script into an animated execution flow diagram",
+      "prompt": "Build a tool that visualizes Python code execution in real-time, showing function calls, data flow, and variable states as an animated diagram",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/code_visualizer",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:37.067559",
+      "complexity": 8
+    },
+    {
+      "id": "agent_repo_analyzer",
+      "project": "repo_analyzer",
+      "title": "GitHub Repository Architecture Analyzer",
+      "description": "Build a GitHub repo analyzer that generates complete architectural documentation and dependency graphs",
+      "prompt": "Create a tool that analyzes any GitHub repository and automatically generates comprehensive technical documentation with visual dependency maps and architecture diagrams",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/repo_analyzer",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:37.584914",
+      "complexity": 7
+    },
+    {
+      "id": "agent_voice_coding",
+      "project": "voice_coding",
+      "title": "Voice-Controlled Coding Assistant",
+      "description": "Create a voice-controlled coding assistant that executes natural language commands as code",
+      "prompt": "Build a system that listens to voice commands like 'refactor this function to use async/await' and automatically modifies code accordingly",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/voice_coding",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:38.097140",
+      "complexity": 8
+    },
+    {
+      "id": "agent_framework_migrator",
+      "project": "framework_migrator",
+      "title": "AI-Powered Framework Migration Tool",
+      "description": "Build an AI-powered code migration tool that converts entire projects between frameworks",
+      "prompt": "Create a tool that can automatically migrate entire codebases between frameworks (React to Vue, Express to FastAPI, etc.) while preserving functionality",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/framework_migrator",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:38.601709",
+      "complexity": 9
+    },
+    {
+      "id": "agent_bug_predictor",
+      "project": "bug_predictor",
+      "title": "ML-Based Bug Prediction System",
+      "description": "Create a bug prediction system that analyzes commit history to identify future failure points",
+      "prompt": "Build a machine learning system that analyzes git commit history and code patterns to predict where bugs are likely to appear before they happen",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/bug_predictor",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:39.131674",
+      "complexity": 8
+    },
+    {
+      "id": "agent_code_battle",
+      "project": "code_battle",
+      "title": "Collaborative AI Coding Competition",
+      "description": "Build a collaborative coding game where multiple AI agents compete to optimize the same codebase",
+      "prompt": "Create a system where multiple AI agents with different optimization strategies compete in real-time to improve the same codebase",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/code_battle",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:39.658247",
+      "complexity": 7
+    },
+    {
+      "id": "agent_3d_architecture",
+      "project": "3d_architecture",
+      "title": "3D Code Architecture Visualizer",
+      "description": "Create a code-to-diagram generator that turns any codebase into interactive 3D architecture visualizations",
+      "prompt": "Build a tool that generates interactive 3D visualizations of code architecture, allowing developers to navigate their code like a video game",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/3d_architecture",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:40.256285",
+      "complexity": 9
+    },
+    {
+      "id": "agent_api_reverse_engineer",
+      "project": "api_reverse_engineer",
+      "title": "Automated API Reverse Engineering Tool",
+      "description": "Build an automated API reverse-engineering tool that generates SDKs from network traffic",
+      "prompt": "Create a tool that captures API calls and automatically generates fully-typed client libraries in multiple languages with complete documentation",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/api_reverse_engineer",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:40.788984",
+      "complexity": 8
+    },
+    {
+      "id": "agent_time_travel_debugger",
+      "project": "time_travel_debugger",
+      "title": "Time-Travel Debugging System",
+      "description": "Create a 'time-travel debugger' that records entire program execution for replay and modification",
+      "prompt": "Build a debugging system that records complete program execution and allows developers to replay, rewind, and modify any point in the execution history",
+      "directory": "/Users/kodyw/Documents/GitHub/cc-agents/autonomous_projects/time_travel_debugger",
+      "status": "initializing",
+      "created_at": "2025-08-13T22:37:41.311632",
+      "complexity": 10
+    }
+  ],
+  "status": "active"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "example_api-sdk",
+  "version": "1.0.0",
+  "description": "Auto-generated TypeScript SDK for ExampleAPI API",
+  "main": "ExampleAPIClient.js",
+  "types": "ExampleAPIClient.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "api",
+    "sdk",
+    "client",
+    "ExampleAPI"
+  ],
+  "author": "Auto-generated",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
